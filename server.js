@@ -43,6 +43,10 @@ app.delete('/tasks/:id', (req, res) => {
     }
 });
 
+app.get('/', (req, res) => {
+    res.send('Task Tracker App Backend Running...')
+})
+
 // Start server
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
