@@ -1,9 +1,11 @@
 const { v4: uuidv4 } = require('uuid');
 
 let tasks = [
-    { id: uuidv4(), title: 'Learn React', completed: false },
-    { id: uuidv4(), title: 'Build a Todo App', completed: false },
-    { id: uuidv4(), title: 'Deploy to production', completed: false }
+    { id: uuidv4(), title: 'Explore React with Nuxt', completed: false },
+    { id: uuidv4(), title: 'Build a Task Tracker Application with Node & Express', completed: false },
+    { id: uuidv4(), title: 'Build Frontend with Nuxt js', completed: false },
+    { id: uuidv4(), title: 'Maintain Versioning with Git', completed: false },
+    { id: uuidv4(), title: 'Deploy to Production', completed: false }
 ];
 
 const getAllTasks = () => tasks;
